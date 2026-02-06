@@ -1,0 +1,11 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "SqlConnectionString": "Server=your-server.database.windows.net;Database=your-database;User Id=your-user;Password=your-password;Encrypt=true;TrustServerCertificate=false;Connection Timeout=30;",
+        "FreshService:BaseUrl": "https://your-domain.freshservice.com",
+        "FreshService:ApiKey": "your-api-key-here",
+        "SyncSchedule": "0 0 */6 * * *"
+    }
+}
